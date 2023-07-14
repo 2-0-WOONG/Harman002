@@ -47,7 +47,7 @@
 
 #include <stdio.h>
 #include <malloc.h>	//메모리 공간 확보
-char buf[100];
+char buf[200];
 void MemoryDump(int start, int length);	//함수의 원형 Prototype
 
 int main(int argc, char *argv[])
